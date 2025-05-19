@@ -56,4 +56,71 @@ def test2():
 
 def test3():
     pass
-test3()
+# test3()
+
+class circle():
+    """원을 나타내는 클래스
+    필드: 반지름(redius)
+    메소드: 둘레(get_around, 면적(get_area) 구하기
+    """
+    def __init__(self, radius):
+        self.radius = radius
+        
+    def get_around(self):
+        """원의 둘레를 구하는 메소드
+        """
+        return 2 * 3.141592 * self.radius
+    
+    def get_area(self):
+        """원의 면적을 구하는 메소드
+        """
+        return 3.141592 * self.radius ** 2
+    
+    def __str__(self):
+        """원의 반지름을 문자열로 반환하는 메소드
+        """
+        return f"원의 반지름: {self.radius}, 둘레: {self.get_around()}, 면적: {self.get_area()}"
+
+def test4():
+    """circle 클래스 테스트
+    """
+    c1 = circle(10)
+    c2 = circle(20)
+    print(c1)
+    print(c2)
+# test4()
+
+class Rectangle():
+    """
+    사각형을 나타내는 클래스
+    속성: 넓이, 높이
+    메소드: 면적, 둘레 구하기
+    """
+
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+
+    def get_area(self):
+        """사각형의 면적을 구하는 메소드
+        """
+        return self.width * self.height
+
+    def get_around(self):
+        """사각형의 둘레를 구하는 메소드
+        """
+        return 2 * (self.width + self.height)
+
+    def __str__(self):
+        """사각형의 넓이와 높이를 문자열로 반환하는 메소드
+        """
+        return f"사각형의 넓이: {self.get_area()}, 둘레: {self.get_around()}"
+
+def test5():
+    """Rectangle 클래스 테스트
+    """
+    r1 = Rectangle(10, 5)
+    r2 = Rectangle(10, 10)
+    print(r1)
+    print(r2)
+# test5()
