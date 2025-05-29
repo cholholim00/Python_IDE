@@ -78,12 +78,7 @@ def main():
     conn.close()
 
 # main()
-
-
-
-
-
-
+# ******************************************
 def test1():
     from urllib.request import urlopen
     from bs4 import BeautifulSoup
@@ -92,7 +87,6 @@ def test1():
     # print(html.read())
     bs_obj = BeautifulSoup(html.read(),"html.parser")
     print(bs_obj)
-
 # test1()
 
 
@@ -110,7 +104,6 @@ def test2():
             </body>
         </html>
     """
-    
     bs_obj = BeautifulSoup(html_str, "html.parser")
     # print(bs_obj)
     ul = bs_obj.find("ul")
@@ -118,7 +111,6 @@ def test2():
     li_all = bs_obj.findAll("li")
     for item in li_all:
         print(item.text)
-
 # test2()
 
 def test3():
@@ -147,7 +139,6 @@ def test3():
         li_list = ul.findAll("li")
         for li in li_list:
             print(li.text)
-
 # test3()
 
 # find, findAll vs select_one, select
@@ -198,5 +189,4 @@ def test5():
     li_list = bs_obj.select("#ulCategoryList > li")
     for item in li_list:
         print(item.text)
-    
 test5()
