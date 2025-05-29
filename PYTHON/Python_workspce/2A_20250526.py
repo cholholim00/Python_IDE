@@ -133,7 +133,6 @@ def test7():
     tables = cur.fetchmany(2)  # 2행씩 가져오기
     for row in tables:
         print(row)  # 출력: (1, 'Lee', '2025-04-17'), (2, 'Kim', '2025-04-20')
-
     conn.close()
 test7()
 

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10b5e597-b773-461f-bd17-2b2cfde17023" name="변경" comment="20250519 파이썬">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="10b5e597-b773-461f-bd17-2b2cfde17023" name="변경" comment="20250526 파이썬">
+      <change afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2024201019.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250529.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250526.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250526.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +51,7 @@
     "Python.2A_20250310.executor": "Run",
     "Python.2A_20250519.executor": "Run",
     "Python.2A_20250526.executor": "Run",
+    "Python.2A_20250529.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -96,6 +99,9 @@
       <workItem from="1748217432980" duration="7000" />
       <workItem from="1748223755525" duration="3558000" />
       <workItem from="1748227642106" duration="3405000" />
+      <workItem from="1748233916023" duration="55000" />
+      <workItem from="1748477128494" duration="8000" />
+      <workItem from="1748477407909" duration="3295000" />
     </task>
     <task id="LOCAL-00001" summary="추가중">
       <option name="closed" value="true" />
@@ -145,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747630151627</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="20250526 파이썬">
+      <option name="closed" value="true" />
+      <created>1748233951236</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1748233951236</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,10 +170,12 @@
     <MESSAGE value="1교시 파이썬" />
     <MESSAGE value="2.3교시 파이썬" />
     <MESSAGE value="20250519 파이썬" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250519 파이썬" />
+    <MESSAGE value="20250526 파이썬" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250526 파이썬" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250526.coverage" NAME="2A_20250526 커버리지 결과" MODIFIED="1748231034378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
+    <SUITE FILE_PATH="coverage/Python_IDE$2A_20250529.coverage" NAME="2A_20250529 커버리지 결과" MODIFIED="1748479441392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250519.coverage" NAME="2A_20250519 커버리지 결과" MODIFIED="1747630167622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250310.coverage" NAME="2A_20250310 커버리지 결과" MODIFIED="1746675850097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
   </component>
