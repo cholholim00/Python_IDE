@@ -90,3 +90,4 @@ def test4():
                 p_sale_price = li.select_one("div.description > ul > li:nth-child(2)").text
                 writer.writerow([p_name, p_price, p_sale_price])
                 print(f"{p_name} | {p_price} | {p_sale_price}")
+test4()
