@@ -117,37 +117,21 @@ def test5():
     #tabCont01 > ul > li:nth-child(1)
     li_list = bs_obj.select("#tabCont01 > ul > li")
     # print(len(li_list))
-
-    for li in li_list:
+    prod_list = []
+    for index, li in enumerate(li_list):
         #tabCont01 > ul > li:nth-child(1) > a > dl > dt
         p_name = li.select_one("a > dl > dt").text
         #tabCont01 > ul > li:nth-child(1) > a > dl > dd
         p_info = li.select_one("a > dl > dd").text
         #tabCont01 > ul > li:nth-child(1) > a > p.money > strong
         p_price = li.select_one("a > p.money > strong").text
-        print(f"제품명: {p_name},  설명: {p_info},  가격: {p_price}")
-# test5()
+        prod_list.append([p_name, p_info, p_price])
 
-# 제품명, 설명, 가격 csv 파일로 만들기
-def test6():
-    from urllib.request import urlopen
-    from bs4 import BeautifulSoup
-    import csv
-
+    header = ["[번호],메뉴이름],[설명],[가격]"]
     with open("kyochon_chicken.csv", "w", encoding="utf-8", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["제품명", "설명", "가격"])
-
-        url = "https://www.kyochon.com/menu/chicken.asp"
-        html = urlopen(url)
-        bs_obj = BeautifulSoup(html, "html.parser")
-
-        li_list = bs_obj.select("#tabCont01 > ul > li")
-
-        for li in li_list:
-            p_name = li.select_one("a > dl > dt").text.strip()
-            p_info = li.select_one("a > dl > dd").text.strip()
-            p_price = li.select_one("a > p.money > strong").text.strip()
-            writer.writerow([p_name, p_info, p_price])
-            print(f"제품명: {p_name},  설명: {p_info},  가격: {p_price}")
-test6()
+        writer = csv.writer(f, delimiter="|", quotechar='"', quoting=csv.QUOTE_MINIMAL)
+        writer.writerow(header)
+        for item in prod_list:
+            writer.writerow(item)
+    print("메뉴 내용을 저장하였습니다.")
+test5()
