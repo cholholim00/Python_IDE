@@ -3,7 +3,7 @@ import sqlite3  # SQLite 데이터베이스 사용을 위한 표준 라이브러
 # 데이터베이스 연결 및 books 테이블 생성 함수
 def connect_db():
     # 2024102011.db라는 파일에 SQLite 연결
-    conn = sqlite3.connect("2024201019.db")
+    conn = sqlite3.connect("2024sork201019.db")
 
     # books 테이블이 없으면 생성
     conn.execute("""
@@ -16,7 +16,7 @@ def connect_db():
                      stock INTEGER                         
                      )
                  """)
-    return conn  # 연결 객체 반환
+    return conn  # 연결 객체 반환fg
 
 # 책 추가 함수 (사용자 입력 기반)
 def add_book(conn):
