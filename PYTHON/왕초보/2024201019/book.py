@@ -16,7 +16,7 @@ def connect_db():
                      stock INTEGER                         
                      )
                  """)
-    return conn  # 연결 객체 반환fg
+    return conn  # 연결 객체 반환
 
 # 책 추가 함수 (사용자 입력 기반)
 def add_book(conn):
