@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10b5e597-b773-461f-bd17-2b2cfde17023" name="변경" comment="20250609 파이썬">
-      <change afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250609.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/도서.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/2024201019.db" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/2024201019.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/2024201019/2024201019.db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,34 +44,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.2A_20250310.executor": "Run",
-    "Python.2A_20250519.executor": "Run",
-    "Python.2A_20250526.executor": "Run",
-    "Python.2A_20250529.executor": "Run",
-    "Python.2A_20250602.executor": "Run",
-    "Python.2A_20250605.executor": "Run",
-    "Python.2A_20250609.executor": "Run",
-    "Python.book.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/elwlz/IdeaProjects/Python_IDE/PYTHON/Python_workspce",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.2A_20250310.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250519.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250526.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250529.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250602.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250605.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2A_20250609.executor&quot;: &quot;Run&quot;,
+    &quot;Python.book.executor&quot;: &quot;Run&quot;,
+    &quot;Python.구현.executor&quot;: &quot;Run&quot;,
+    &quot;Python.도서.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elwlz/IdeaProjects/Python_IDE/PYTHON/Python_workspce&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\elwlz\IdeaProjects\Python_IDE\PYTHON\Python_workspce" />
@@ -126,6 +126,9 @@
       <workItem from="1749426114775" duration="5437000" />
       <workItem from="1749431767143" duration="2126000" />
       <workItem from="1749434132332" duration="3878000" />
+      <workItem from="1749440117308" duration="917000" />
+      <workItem from="1749448022613" duration="4305000" />
+      <workItem from="1749453295018" duration="3414000" />
     </task>
     <task id="LOCAL-00001" summary="추가중">
       <option name="closed" value="true" />
@@ -263,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749426749682</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20250609 파이썬">
+      <option name="closed" value="true" />
+      <created>1749444121083</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749444121083</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +292,8 @@
     <MESSAGE value="20250602 파이썬 마지막교시 최종" />
     <MESSAGE value="20250603 파이썬 과제" />
     <MESSAGE value="20250605 5g 네트워크" />
-    <option name="LAST_COMMIT_MESSAGE" value="20250605 5g 네트워크" />
+    <MESSAGE value="20250609 파이썬" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250609 파이썬" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -294,12 +306,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python_IDE$book.coverage" NAME="book 커버리지 결과" MODIFIED="1749430739878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/왕초보/2024201019" />
+    <SUITE FILE_PATH="coverage/Python_IDE$book.coverage" NAME="book 커버리지 결과" MODIFIED="1749448096069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/왕초보/2024201019" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250609.coverage" NAME="2A_20250609 커버리지 결과" MODIFIED="1749433551722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250605.coverage" NAME="2A_20250605 커버리지 결과" MODIFIED="1749083776412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$test.coverage" NAME="test 커버리지 결과" MODIFIED="1749104947467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/왕초보" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250526.coverage" NAME="2A_20250526 커버리지 결과" MODIFIED="1748490082779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250529.coverage" NAME="2A_20250529 커버리지 결과" MODIFIED="1748511641720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
+    <SUITE FILE_PATH="coverage/Python_IDE$.coverage" NAME="도서 커버리지 결과" MODIFIED="1749453691409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/왕초보/2024201019" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250519.coverage" NAME="2A_20250519 커버리지 결과" MODIFIED="1747630167622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250602.coverage" NAME="2A_20250602 커버리지 결과" MODIFIED="1748835579972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
     <SUITE FILE_PATH="coverage/Python_IDE$2A_20250310.coverage" NAME="2A_20250310 커버리지 결과" MODIFIED="1746675850097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PYTHON/Python_workspce" />
