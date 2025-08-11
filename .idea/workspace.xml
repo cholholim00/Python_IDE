@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10b5e597-b773-461f-bd17-2b2cfde17023" name="변경" comment="20250610">
+      <change afterPath="$PROJECT_DIR$/PYTHON/엘리스/level_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250602.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250602.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250605.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250605.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250609.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYTHON/Python_workspce/2A_20250609.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/jpg변환_프로그램.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/HWP_attack_analysis_complete.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/generate_ppt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYTHON/왕초보/shellcode_diagram.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/cholholim00/Python_IDE.git&quot;,
-    &quot;accountId&quot;: &quot;a3bbf0e2-5afa-4fd3-8e63-d18bbc389f85&quot;
+    &quot;accountId&quot;: &quot;beb4a659-e949-4a72-be37-9a72957cb3e9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -62,12 +56,14 @@
     &quot;Python.2A_20250609.executor&quot;: &quot;Run&quot;,
     &quot;Python.book.executor&quot;: &quot;Run&quot;,
     &quot;Python.generate_ppt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.level_test.executor&quot;: &quot;Run&quot;,
     &quot;Python.구현.executor&quot;: &quot;Run&quot;,
     &quot;Python.도서.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/elwlz/IdeaProjects/Python_IDE/PYTHON/Python_workspce&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -93,8 +89,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
@@ -149,6 +145,14 @@
       <workItem from="1749801427684" duration="114000" />
       <workItem from="1749803722010" duration="268000" />
       <workItem from="1750012220928" duration="1222000" />
+      <workItem from="1752738304040" duration="63000" />
+      <workItem from="1752738385980" duration="30000" />
+      <workItem from="1753128298873" duration="5000" />
+      <workItem from="1753128368513" duration="13000" />
+      <workItem from="1754266914710" duration="14000" />
+      <workItem from="1754613619419" duration="764000" />
+      <workItem from="1754615140528" duration="6754000" />
+      <workItem from="1754869755947" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="추가중">
       <option name="closed" value="true" />
