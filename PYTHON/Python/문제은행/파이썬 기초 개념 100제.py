@@ -1,0 +1,572 @@
+# 🐍 파이썬: 개념 완성 로드맵
+# 🟢 Part 1. 출력과 변수 (기초 다지기)
+# 학습 목표: 파이썬과 친해지고 데이터를 화면에 보여주는 법을 익힙니다.
+# # 001. Hello World 문장 출력하기
+# print("Hello World")
+
+# # 002. 문장 두 개를 줄을 바꿔서 출력하기 (print 두 번 사용)
+# print("Hello World")
+# print("Joy")
+
+# # 003. 문장 중간에 줄바꿈 문자(\n) 넣어 출력하기
+# print("Hi\nJoy")
+
+# # 004. 작은따옴표(')가 포함된 문장 출력하기 ('Hello')
+# print("\'Hello\'")
+
+# # 005. 큰따옴표(")가 포함된 문장 출력하기 ("Hello")
+# print("\"Hello\"")
+
+# # 006. 특수문자 출력하기 (!@#$%^&*())
+# print("!@#$%^&*()")
+
+# # 007. 파일 경로 출력하기 (백슬래시 \ 활용)
+# print("C:\\Windows\\System32")
+
+# # 008. 정수형 변수 a에 10을 저장하고 출력하기
+# a = 10
+# print(f"a = {a}")
+
+# # 009. 문자열 변수 b에 "Python"을 저장하고 출력하기
+# b = 'Python'
+# print(f"b = {b}")
+
+# # 010. 변수 두 개를 만들고 동시에 출력하기
+# name = '홍길동'
+# age = 20
+# print(f"이름은{name}이고 나이는{age}살이다")
+
+# 🟡 Part 2. 입력과 자료형 (소통하기)
+# 학습 목표: 키보드로 데이터를 입력받고, 숫자와 문자의 차이를 이해합니다.
+# # 011. 문자 1개 입력받아 그대로 출력하기 (input)
+# a = input()
+# print(a)
+
+# # 012. 정수 1개 입력받아 그대로 출력하기 (int 변환)
+# a = int(input())
+# print(a)
+
+# # 013. 실수 1개 입력받아 그대로 출력하기 (float 변환)
+# a = float(input())
+# print(a)
+
+# # 014. 정수 2개를 줄 바꿔서 입력받아 줄 바꿔 출력하기
+# a = int(input())
+# b = int(input())
+# print(a)
+# print(b)
+
+# # 015. 단어 2개를 입력받아 순서 바꿔 출력하기
+# t1 = str(input())
+# t2 = str(input())
+# print(t2 + t1)
+
+# 016. 실수 1개 입력받아 3번 반복해서 출력하기
+# a = float(input())
+# for i in range(3):
+#     print(a)
+
+# # 017. 시간 입력받아 그대로 출력하기 (예: 12:30)
+# x, y = input("시간을 입력하시오").split(':')
+# print(x, y, sep=':')
+
+# 018. 연, 월, 일 입력받아 형식 맞춰 출력하기 (yyyy.mm.dd)
+# y, m, d = input("날짜를 입력하시오").split('.')
+# print(y, m, d, sep='.')
+
+# 019. 주민번호 뒷자리 가리고 출력하기 (문자열 슬라이싱 맛보기)
+# df = '123456-7891011'
+# print("뒷자리 : " + df[7:])
+
+# # 020. 단어 1개 입력받아 한 글자씩 나누어 출력하기
+# word = input("단어를 입력하세요: ")
+# for char in word:
+#     print(char)
+# 2026/01/12 파이썬 100제 1차 풀기
+
+# 🟠 Part 3. 연산자 (계산기 만들기)
+# 학습 목표: 컴퓨터에게 더하기, 빼기, 나머지 구하기 등 계산을 시킵니다.
+# 021. 정수 2개 입력받아 합계 출력하기
+# a = int(input())
+# b = int(input())
+# print(a + b)
+
+# 022. 정수 2개 입력받아 뺄셈 결과 출력하기
+# a = int(input())
+# b = int(input())
+# print(a - b)
+
+# 023. 실수 2개 입력받아 곱셈 결과 출력하기
+# a = float(input())
+# b = float(input())
+# print(a * b)
+
+# # 024. 문장 1개와 횟수(정수) 입력받아 문장 반복 출력하기 (* 연산자 응용)
+# a = str(input())
+# b = int(input())
+# print(a * b)
+
+# # 025. 정수 2개 입력받아 거듭제곱 계산하기 (**)
+# a = int(input())
+# b = int(input())
+# print(a ** b)
+
+# # 026. 실수 2개 입력받아 나눈 결과 출력하기 (/)
+# a = float(input())
+# b = float(input())
+# print(a / b)
+
+# # 027. 정수 2개 입력받아 나눈 몫 출력하기 (//)
+# a = int(input())
+# b = int(input())
+# print(a / b)
+
+# a = int(input())
+# b = int(input())
+# print(a // b)
+
+# # 028. 정수 2개 입력받아 나눈 나머지 출력하기 (%)
+# a = int(input())
+# b = int(input())
+# print(a // b)
+
+# a = int(input())
+# b = int(input())
+# print(a % b)
+
+# # 029. 실수 1개 입력받아 소수점 둘째 자리까지 반올림하여 출력하기 (round, format)
+# f = float(input())
+# print(round(f,2))
+
+# # 030. 정수 1개 입력받아 비트단위 시프트 연산 결과 출력하기 (<<, >>)
+# n = int(input())
+# print(n << 1)
+# print(n >> 1)
+
+# # 031. 정수 2개 입력받아 작다(<) 비교 결과(True/False) 출력하기
+# a = int(input())
+# b = int(input())
+# print(a < b)
+
+# # 032. 정수 2개 입력받아 같다(==) 비교 결과 출력하기
+# a = int(input())
+# b = int(input())
+# print(a == b)
+
+# # 033. 정수 2개 입력받아 다르다(!=) 비교 결과 출력하기
+# a = int(input())
+# b = int(input())
+# print(a != b)
+
+# # 034. 두 정수 입력받아 둘 다 참일 때만 참 출력하기 (and)
+# a, b = map(int, input().split())
+# result = a and b
+# print(bool(result))
+
+# # 035. 두 정수 입력받아 하나라도 참이면 참 출력하기 (or)
+# a, b = map(int, input().split())
+# result = a or b
+# print(bool(result))
+
+# 🔵 Part 4. 조건문 (선택의 순간)
+# 학습 목표: 상황(조건)에 따라 프로그램이 다르게 동작하도록 만듭니다.
+# # 036. 정수 1개 입력받아 10보다 작으면 "small" 출력하기 (if)
+# a = int(input())
+# if a < 10:
+#     print('small')
+
+# # 037. 정수 1개 입력받아 0이 아니면 그대로 출력하기
+# a = int(input())
+# if a != 0:
+#     print(a)
+
+# # 038. 정수 2개 입력받아 더 큰 수 출력하기
+# a, b = map(int, input().split())
+# if a > b:
+#     print(a)
+# else:
+#     print(b)
+
+# # 039. 정수 3개 입력받아 가장 작은 수 출력하기
+# a, b, c = map(int, input().split())
+# m = a
+# if m < b: m = b
+# if m < c: m = c
+# print(m)
+
+# # 040. 정수 1개 입력받아 짝수(even)인지 홀수(odd)인지 판별하기
+# n = int(input())
+# if n % 2 == 0:
+#     print("짝수")
+# else:
+#     print("홀수")
+# 2026/01/13 파이썬 100제 2차 풀기
+
+# # 041. 정수 1개 입력받아 양수(plus), 음수(minus), 0(zero) 판별하기
+# b = int(input())
+# if b > 0 :
+#     print("양수")
+# elif b < 0 :
+#     print("음수")
+# else:
+#     print("0")
+
+# # 042. 점수(0~100) 입력받아 A, B, C, D, F 학점 판별하기 (elif)
+# jumsu = int(input())
+# if jumsu >= 90:
+#     print("A")
+# elif jumsu >= 80:
+#     print("B")
+# elif jumsu >= 70:
+#     print("C")
+# elif jumsu >= 60:
+#     print("D")
+# else:
+#     print("F")
+
+# # 043. 월(Month)을 입력받아 계절 판별하기 (3~5: 봄, ...)
+# w = int(input())
+# if 3 <= w <= 5:
+#     print("봄")
+# elif 6 <= w <= 8:
+#     print("여름")
+# elif 9 <= w <= 11:
+#     print("가을")
+# else:
+#     print("겨울")
+
+# # 044. 주사위 번호(1~6) 입력받아 해당하는 상금 출력하기
+# n = int(input("주사위 번호를 입력하시오"))
+# if n == 1:
+#     print("1등")
+# elif n == 2:
+#     print("2등")
+# else:
+#     print("꽝")
+
+# # 045. 연도 입력받아 윤년인지 평년인지 판별하기 (4의 배수 and not 100의 배수 or 400의 배수)
+# y = int(input())
+# if(y%4 == 0 and y%100 != 0) or (y%400 == 0):
+#     print("Yes")
+# else:
+#     print("No")
+
+# # 046. 방문자 수 입력받아 "이벤트 당첨" 또는 "다음 기회에" 출력하기
+# n = int(input())
+# if n != 0:
+#     print("이벤트 당첨")
+# else:
+#     print("다음 기회에")
+
+# # 047. 로그인 프로그램 만들기 (아이디/비번 일치 여부 확인)
+# uid = input(); upw = input()
+# if uid == "admin" and upw == "1234":
+#     print("Login Success")
+# else:
+#     print("Login Fail")
+
+# # 048. 계산기 프로그램 (숫자 2개와 연산자 입력받아 계산)
+# a = int(input())
+# op = input()
+# b = int(input())
+# if op == '+': print(a+b)
+# elif op == '-': print(a-b)
+# elif op == '*': print(a*b)
+# elif op == '/': print(a/b)
+
+# # 049. 두 수 입력받아 중 큰 수를 작은 수로 뺀 결과 출력하기
+# a, b = map(int, input().split())
+# if a > b: print(a - b)
+# else: print(b - a)
+
+# # 050. BMI 지수 계산하여 비만도 판별하기
+# h = float(input()) # 키(m)
+# w = float(input()) # 몸무게(kg)
+# bmi = w / (h**2)
+# if bmi >= 25: print("비만")
+# else: print("정상")
+# 2026/01/14 파이썬 100제 3차 풀기
+
+# 🟣 Part 5. 반복문 (노가다 자동화)
+# 학습 목표: 반복되는 작업을 컴퓨터에게 시켜 효율을 극대화합니다.
+# # 051. 1부터 100까지 정수 출력하기 (for 또는 while)
+# for i in range(1, 101):
+#     print(i)
+
+# # 052. 정수 1개 입력받아 1부터 그 수까지 출력하기
+# n = int(input())
+# for i in range(1, n+1):
+#     print(i)
+
+# # 053. 정수 1개 입력받아 카운트다운 출력하기 (n, n-1, ... 1)
+# n = int(input())
+# for i in range(n, 0, -1):
+#     print(i)
+
+# # 054. 문자 1개 입력받아 a부터 그 문자까지 알파벳 순서대로 출력하기
+# c = input() # 'f' 입력 가정
+# start = ord('a')
+# end = ord(c)
+# for i in range(start, end+1):
+#     print(chr(i), end=' ')
+
+# # 055. 1부터 100까지의 짝수만 출력하기
+# for i in range(1, 101):
+#     if i % 2 == 0: print(i)
+
+# # 056. 1부터 입력받은 수(n)까지의 합계 구하기
+# n = int(input()); s = 0
+# for i in range(1, n+1): s += i
+# print(s)
+
+# # 057. 1부터 입력받은 수(n)까지 중 3의 배수의 합 구하기
+# n = int(input()); s = 0
+# for i in range(1, n+1):
+#     if i % 3 == 0: s += i
+# print(s)
+
+# # 058. 입력된 정수 계속 더하다가 0이 입력되면 종료하고 합계 출력하기 (break)
+# s = 0
+# while True:
+#     n = int(input())
+#     if n == 0: break
+#     s += n
+# print(s)
+
+# # 059. 1부터 n까지 더하다가 합이 100이 넘는 순간 종료하고 그때의 수 출력하기
+# s = 0; i = 0
+# while s <= 100:
+#     i += 1
+#     s += i
+# print(i) # 그때의 숫자
+
+# # 060. 1부터 n까지 출력하되 3의 배수는 건너뛰고 출력하기 (continue)
+# n = int(input())
+# for i in range(1, n+1):
+#     if i % 3 == 0: continue
+#     print(i, end=' ')
+# 2026/01/15 파이썬 100제 4차 풀기
+
+# # 061. 구구단 2단 출력하기
+# for i in range(1, 10):
+#     print(f"2 * {i} = {2*i}")
+#
+# # 062. 구구단 전체(2단~9단) 출력하기 (이중 반복문)
+# for i in range(2, 10):
+#     for j in range(1, 10):
+#         print(f"{i}*{j}={i*j}")
+
+# # 063. 정사각형 모양 별(*) 찍기
+# n = int(input())
+# for i in range(n):
+#     print("*" * n)
+
+# # 064. 왼쪽 아래가 직각인 이등변 삼각형 별 찍기
+# n = int(input())
+# for i in range(1, n+1):
+#     print("*" * i)
+
+# # 065. 오른쪽 아래가 직각인 이등변 삼각형 별 찍기
+# n = int(input())
+# for i in range(1, n+1):
+#     print(" " * (n-i) + "*" * i)
+
+# # 066. 피라미드(정삼각형) 모양 별 찍기
+# n = int(input())
+# for i in range(1, n+1):
+#     print(" " * (n-i) + "*" * (2*i-1))
+
+# # 067. 역삼각형 모양 별 찍기
+# n = int(input())
+# for i in range(n, 0, -1):
+#     print("*" * i)
+
+# # 068. 10초 타이머 만들기 (1초 간격으로 숫자 출력, time.sleep)
+# import time
+# for i in range(10, 0, -1):
+#     print(i)
+#     time.sleep(1) # 1초 대기
+
+# # 069. 주사위 2개를 던져서 합이 10이 되는 모든 경우의 수 출력하기
+# for i in range(1, 7):
+#     for j in range(1, 7):
+#         if i + j == 10:
+#             print(i, j)
+
+# # 070. 팩토리얼 계산하기 (n! = 12...*n)
+# n = int(input()); fact = 1
+# for i in range(1, n+1):
+#     fact *= i
+# print(fact)
+# 2026/01/16 파이썬 100제 5차 풀기
+
+# # 🟤 Part 6. 리스트 (데이터 묶음 관리)
+# # 학습 목표: 여러 개의 데이터를 하나의 변수에서 관리하는 법을 배웁니다.
+# # 071. 빈 리스트 만들고 숫자 1, 2, 3 추가하기 (append)
+# a = []
+# a.append(1); a.append(2); a.append(3)
+# print(a)
+
+# # 072. 리스트 [10, 20, 30]에서 20을 출력하기 (인덱싱)
+# a = [10, 20, 30]
+# print(a[1])
+
+# # 073. 리스트의 모든 요소 더해서 출력하기 (sum 또는 반복문)
+# a = [10, 20, 30]
+# print(sum(a))
+
+# # 074. 리스트에서 가장 큰 수와 작은 수 찾기 (max, min)
+# a = [5, 2, 8, 1]
+# print(max(a), min(a))
+
+# # 075. 리스트 요소 거꾸로 뒤집기 (reverse 또는 [::-1])
+# a = [1, 2, 3]
+# print(a[::-1])
+
+# # 076. 리스트 요소 정렬하기 (sort)
+# a = [3, 1, 2]
+# a.sort()
+# print(a)
+
+# # 077. 리스트에서 특정 값(예: 30) 삭제하기 (remove, del)
+# a = [10, 20, 30]
+# a.remove(20) # 값으로 삭제
+# # 또는 del a[1] (인덱스로 삭제)
+# print(a)
+
+# # 078. 리스트의 특정 위치에 값 끼워 넣기 (insert)
+# a = [10, 30]
+# a.insert(1, 20) # 1번 인덱스에 20 삽입
+# print(a)
+
+# # 079. 출석부 리스트에서 특정 이름이 있는지 확인하기 (in)
+# names = ["Kim", "Lee", "Park"]
+# if "Kim" in names: print("있음")
+
+# # 080. 문자열을 쪼개서 리스트로 만들기 (split)
+# s = "Hello Python"
+# arr = s.split()
+# print(arr)
+# 2026/01/17 파이썬 100제 6차 풀기
+
+# # 081. 리스트의 문자열들을 합쳐서 하나의 문장 만들기 (join)
+# arr = ["Hello", "Python"]
+# s = " ".join(arr)
+# print(s)
+
+# # 082. 2차원 리스트(행렬) 만들고 요소 출력하기
+# m = [[1, 2], [3, 4]]
+# print(m[0][0], m[1][1])
+
+# # 083. 바둑판(19x19)에 흰 돌 놓기 (좌표 입력받아 2차원 리스트 수정)
+# board = [[0]*19 for _ in range(19)]
+# x, y = map(int, input().split())
+# board[x][y] = 1 # 흰돌
+# print("놓기 완료")
+
+# # 084. 10개의 정수 입력받아 리스트에 저장하고 홀수만 출력하기
+# nums = []
+# for _ in range(10):
+#     n = int(input())
+#     if n % 2 != 0: nums.append(n)
+# print(nums)
+
+# # 085. 로또 번호 생성기 (1~45 중 중복 없이 6개 뽑기)
+# import random
+# lotto = random.sample(range(1, 46), 6)
+# lotto.sort()
+# print(lotto)
+
+# # ⚫ Part 7. 응용과 함수 (진짜 개발자 되기)
+# # 학습 목표: 딕셔너리를 활용하고, 코드를 부품(함수)으로 만들어 재사용합니다.
+# # 086. 딕셔너리 생성하고 키(Key)로 값(Value) 출력하기
+# d = {'apple':'사과', 'banana':'바나나'}
+# print(d['apple'])
+
+# # 087. 영어 단어장 만들기 (단어 입력하면 뜻 출력, 없으면 추가)
+# d = {}
+# while True:
+#     w = input()
+#     if w == 'q': break
+#     if w in d: print(d[w])
+#     else: d[w] = input("뜻?")
+
+# # 088. 딕셔너리의 모든 키(Key)만 출력하기
+# d = {'a':1, 'b':2}
+# print(list(d.keys()))
+#
+# # 089. 딕셔너리의 모든 값(Value)만 출력하기
+# print(list(d.values()))
+
+# # 090. 문자열에서 각 문자가 몇 번 나왔는지 빈도수 세기 (딕셔너리 활용)
+# s = "banana"
+# count = {}
+# for c in s:
+#     count[c] = count.get(c, 0) + 1
+# print(count)
+# 2026/01/18 파이썬 100제 7차 풀기
+
+# # 091. def를 사용하여 "Hello"를 출력하는 함수 정의하고 호출하기
+# def say_hello():
+#     print("Hello")
+# say_hello()
+
+# # 092. 두 수를 매개변수로 받아 합을 반환(return)하는 함수 만들기
+# def add(a, b):
+#     return a + b
+# print(add(3, 5))
+
+# # 093. 숫자를 넣으면 짝수인지 판별해주는 함수 만들기
+# def is_even(n):
+#     return n % 2 == 0
+# print(is_even(4))
+
+# # 094. 리스트를 넣으면 평균을 구해주는 함수 만들기
+# def get_avg(lst):
+#     return sum(lst) / len(lst)
+# print(get_avg([80, 90, 100]))
+
+# # 095. 거스름돈 계산 함수 (가장 적은 화폐 개수로 거슬러 주기)
+# def change(money):
+#     coins = [500, 100, 50, 10]
+#     for coin in coins:
+#         cnt = money // coin
+#         print(f"{coin}원: {cnt}개")
+#         money %= coin
+# change(1260)
+
+# # 096. 소수(Prime Number) 판별 함수 만들기
+# def is_prime(n):
+#     if n < 2: return False
+#     for i in range(2, int(n**0.5)+1):
+#         if n % i == 0: return False
+#     return True
+# print(is_prime(17))
+
+# # 097. 재귀 함수를 이용해 1부터 n까지 합 구하기
+# def recursive_sum(n):
+#     if n == 1: return 1
+#     return n + recursive_sum(n-1)
+# print(recursive_sum(10))
+
+# # 098. 파일에 "Hello Python" 문자열 저장하기 (open, write)
+# f = open("test.txt", "w")
+# f.write("Hello Python")
+# f.close()
+
+# # 099. 저장된 파일 읽어서 화면에 출력하기 (read)
+# f = open("test.txt", "r")
+# print(f.read())
+# f.close()
+
+# # 100. [종합] 업다운(Up & Down) 숫자 맞추기 게임 만들기 (랜덤 수 생성, 입력, 비교, 반복 종합)
+# import random
+# ans = random.randint(1, 100)
+# while True:
+#     n = int(input())
+#     if n > ans: print("Down")
+#     elif n < ans: print("Up")
+#     else:
+#         print("Correct!")
+#         break
+# 2026/01/19 파이썬 100제 8차 풀기
